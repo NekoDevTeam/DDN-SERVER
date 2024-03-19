@@ -2,14 +2,12 @@
 # https://discordpy.readthedocs.io/en/stable/quickstart.html#a-minimal-bot
 
 import os
-
 import discord
 
 intents = discord.Intents.default()
 intents.message_content = True
 
 client = discord.Client(intents=intents)
-
 
 @client.event
 async def on_ready():
@@ -23,6 +21,8 @@ async def on_message(message):
 
     if message.content.startswith('hello DDN'):
         await message.channel.send('Hello!@user')
+    elif message.content.startswith('DDN Ver'):
+        await message.channel.send('**Now DDN SERVER Ver Is 0.0.1**')
 
 
 try:
