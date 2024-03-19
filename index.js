@@ -20,7 +20,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Listening DDN SERVER DATA"];
+const statusMessages = ["Sleep In Moon Light"];
 
 
 let currentIndex = 0;
