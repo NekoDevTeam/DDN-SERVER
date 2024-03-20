@@ -19,10 +19,10 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('hello DDN'):
-        await message.channel.send('Hello!@user')
-    elif message.content.startswith('DDN Ver'):
-        await message.channel.send('**Now DDN SERVER Ver Is 0.0.1**')
+    if message.content.startswith('Hello Nittar'):
+        await message.channel.send('Hello')
+    elif message.content.startswith('What are you doing?'):
+        await message.channel.send('Play')
 
 
 try:
