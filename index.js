@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Sleep In Moon Light"];
+const statusMessages = ["Work Now"];
 
 
 let currentIndex = 0;
